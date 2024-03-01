@@ -24,7 +24,6 @@ teacher's viewpoint information from four directions, i.e., forward (F), backwar
 right (R).
 
 ## About the TDAM model：
- 
 ### Requirement
 
 Python >= 3.7
@@ -41,5 +40,6 @@ dataset_all.pkl
 **2.Training & Evaluation**
 To train and evaluate the TDAM model on TCDA base on resnet50:
 
-'python train.py --cfg ./config/pedes_baseline/TCDA.yaml'
+` python train.py --cfg ./config/pedes_baseline/TCDA.yaml `
 
+If you use the TAQA dataset, please cite this paper:A Teacher Classroom Dress Assessment Method Based on a New Assessment Dataset
