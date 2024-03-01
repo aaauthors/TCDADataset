@@ -37,8 +37,9 @@ If the article is accepted for publication, we will upload the TCDA dataset. The
 TCDA
 data/
 dataset_all.pkl
- 
+
 **2.Training & Evaluation**
+
 To train and evaluate the TDAM model on TCDA base on resnet50:
 
 ` python train.py --cfg ./config/pedes_baseline/TCDA.yaml `
